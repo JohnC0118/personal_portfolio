@@ -21,6 +21,7 @@ const Earth = () => {
 
 const EarthCanvas= () => {
   return(
+    <>
     <Canvas
       shadows
       frameloop='demand'
@@ -42,6 +43,7 @@ const EarthCanvas= () => {
         <Earth/>
       </Suspense>
     </Canvas>
+    </>
   )
 }
 export default EarthCanvas

@@ -14,14 +14,17 @@ import {
     mongodb,
     git,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    epic,
+    datatom,
+    bytedance,
     carrent,
     jobit,
     tripguide,
     threejs,
+    linkedin,
+    github_square,
+    resume,
+    resumeDoc
   } from "../assets";
   
   export const navLinks = [
@@ -38,6 +41,25 @@ import {
       title: "Contact",
     },
   ];
+
+  const contacts = [
+    {
+      title: "linkedIn",
+      link: "https://www.linkedin.com/in/ruoqian-chu/",
+      icon: linkedin
+    },
+    {
+      title: "github",
+      link: "https://github.com/JohnC0118?tab=repositories",
+      icon: github_square
+    },
+    {
+      title:"resume",
+      link:resumeDoc,
+      icon:resume,
+    }
+
+  ]
   
   const services = [
     {
@@ -113,8 +135,8 @@ import {
     {
       title: "Software Developer",
       company_name: "DATATOM",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: datatom,
+      iconBg: "#FFFFFF",
       date: "June 2021 - August 2021",
       location: "Shanghai, China",
       points: [
@@ -137,8 +159,8 @@ import {
     {
       title: "Software Engineer",
       company_name: "Epic",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: epic,
+      iconBg: "#FFFFFF",
       date: "May 2023 - Aug 2023",
       location: "Madison, IL",
       points: [
@@ -151,8 +173,8 @@ import {
     {
       title: "Software Engineer (Live-streaming Backend)",
       company_name: "ByteDance",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: bytedance,
+      iconBg: "#FFFFFF",
       date: "May 2024 - Present",
       location: "San Jose, CA",
       points: [
@@ -254,4 +276,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, contacts};

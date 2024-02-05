@@ -20,14 +20,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import epic from "./company/epic.svg";
+import bytedance from "./company/bytedance.png";
+import datatom from "./company/datatom.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import linkedin from "./contact/linkedin.png"
+import github_square from "./contact/github_square.png"
+import resume from "./contact/resume.png"
+
+import resumeDoc from "./contact/resumeDoc.pdf"
+
 
 export {
   logo,
@@ -50,11 +56,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  bytedance,
+  epic,
+  datatom,
   carrent,
   jobit,
   tripguide,
+  linkedin,
+  github_square,
+  resume,
+  resumeDoc,
 };
+
